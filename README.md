@@ -4,7 +4,8 @@ Gramothan is a web project developed using PHP, HTML, and CSS.
 
 ## Features
 
-- [ features]
+- Centralized repository of NGO and free organization websites.
+- Easy navigation and search functionality
 
 ## Technologies Used
 
