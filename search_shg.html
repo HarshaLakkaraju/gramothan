@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHG Details</title>
+</head>
+<style>
+    
+    body{
+        background-color: darkkhaki;
+    }    
+
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+        }
+        
+        .background {
+            background: black;
+            background-blend-mode: darken;
+            background-size: cover;
+        }
+        
+        .nav-list {
+            width: 70%;
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .logo img {
+            width: 180px;
+            border-radius: 50px;
+        }
+        
+        .nav-list li {
+            list-style: none;
+            padding: 26px 30px;
+        }
+        
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .nav-list li a:hover {
+            color: grey;
+        }
+        
+        .rightnav {
+            width: 30%;
+            text-align: right;
+        }
+
+        table {
+        border-collapse: collapse;
+        margin-top: 50px;
+        width: 80%;
+        max-width: 800px;
+        background-color: #fff;
+        box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    }
+
+    th, td {
+        text-align: left;
+        padding: 12px;
+    }
+
+    th {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    tr:hover {
+        background-color: #ddd;
+    }
+        </style>
+        <body>
+            <nav class="navbar background">
+                <ul class="nav-list">
+                    <div class="logo">
+                        <img src= "images/gramothan.jpeg">
+                    </div>
+                    
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    
+                </ul>
+        
+                <div class="rightNav">
+                    <input type="text" name="search" id="search">
+                    <button class="btn btn-sm">Search</button>
+                </div>
+            </nav>
+            <table align="center">
+                <tr>
+                    <th>SHG Code</th>
+                    <th>SHG Name</th>
+                    <th>District Name</th>
+                    <th>Block Name</th>
+                    <th>GramPanchayath Name</th>
+                    <th>Village Name</th>
+                </tr>
+                <tr>
+                    <td>2021/RJ/AJ/ARAL/316522</td>
+                    <td>SHREE GANESH RAJEEVIKA SHG</td>
+                    <td>Ajmer</td>
+                    <td>Ajmer Rural</td>
+                    <td>Ajaysar</td>
+                    <td>Kharekhadi</td>
+                </tr>
+                <tr>
+                    <td>2019/RJ/AJ/ARAI/194318</td>
+                    <td>BABA RAMDEV RAJIVIKA SHG</td>
+                    <td>Ajmer</td>
+                    <td>Arai</td>
+                    <td>Arai</td>
+                    <td>Arai</td>
+                </tr>
+                <tr>
+                    <td>2021/RJ/AJ/ARAI/310844</td>
+                    <td>MAHADEV JI RAJEEVIKA SHG</td>
+                    <td>Ajmer</td>
+                    <td>Arai</td>
+                    <td>Barol</td>
+                    <td>Barol</td>
+                </tr>
+                <tr>
+                    <td>2021/RJ/AJ/ARAL/331046</td>
+                    <td>KHWAJA RAJEEVIKA</td>
+                    <td>Ajmer</td>
+                    <td>Ajmer Rural</td>
+                    <td>Ajaysar</td>
+                    <td>Kharekhadi</td>
+                </tr>
+                <tr>
+                    <td>2022/RJ/AJ/ARAL/341730</td>
+                    <td>DARGHA RAJEEVIKA SHG</td>
+                    <td>Ajmer</td>
+                    <td>Ajmer Rural</td>
+                    <td>Ardaka</td>
+                    <td>Ardaka</td>
+                </tr>
+                <tr>
+                    <td>2019/RJ/AJ/KARH/182010</td>
+                    <td>GHANESH RAJEEVIKA</td>
+                    <td>Ajmer</td>
+                    <td>Kishangarh</td>
+                    <td>Barna</td>
+                    <td>Gordhanpura</td>
+                </tr>
+                <tr>
+                    <td>2022/RJ/AJ/MUDA/341823</td>
+                    <td>JAI PEER BABA RAJEEVIKA SHG</td>
+                    <td>Ajmer</td>
+                    <td>Masuda</td>
+                    <td>Andhi Deori</td>
+                    <td>Rampura Gaina</td>
+                </tr>
+                <tr>
+                    <td>2021/RJ/AJ/KKRI/323584</td>
+                    <td>MAHADEV RAJIVIKA</td>
+                    <td>Ajmer</td>
+                    <td>Kekri</td>
+                    <td>Ajgara</td>
+                    <td>Dorai</td>
+                </tr>
+                <tr>
+                    <td>2021/RJ/AJ/ARAI/272499</td>
+                    <td>JAI GURUDEV RAJEEVIKA SHG</td>
+                    <td>Ajmer</td>
+                    <td>Arai</td>
+                    <td>Barol</td>
+                    <td>Mohammadgargh</td>
+                </tr>
+                <!-- More rows here... -->
+            </table>
+        
+            <script>
+                // Get the search value from the URL parameter
+                var searchValue = new URLSearchParams(window.location.search).get("searchValue");
+        
+                // Check if the search value matches any of the SHG codes in the table
+                var shgCodes = document.getElementsByTagName("td");
+                var found = false;
+                for (var i = 0; i < shgCodes.length; i++) {
+                    if (shgCodes[i].textContent === searchValue) {
+                        found = true;
+                        break;
+                    }
+                }
+        
+                // Display a message depending on whether the search value was found or not
+                if (found) {
+                    alert("SHG code " + searchValue + " found!");
+                } else {
+                    alert("SHG code " + searchValue + " not found.");
+                }
+            </script>
+
+</body>
+</html>

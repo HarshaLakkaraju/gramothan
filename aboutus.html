@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+  <link rel="stylesheet" href="about.css">
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.about-us{
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+  background: #ddd;
+}
+.pic{
+  height: auto;
+  width:  302px;
+}
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text{
+  width: 540px;
+}
+.text h2{
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+ 
+
+}
+.text h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+span{
+  color: #4070f4;
+}
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.data{
+  margin-top: 30px;
+}
+.hire{
+  font-size: 18px;
+  background: #4070f4;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.hire:hover{
+  background: #000;
+  border: 1px solid #4070f4;
+}
+ 
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.background {
+    background: black;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 180px;
+    border-radius: 50px;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: grey;
+}
+
+.rightnav {
+    width: 30%;
+    text-align: right;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.style{
+    text-decoration-color: black;
+}
+
+.about img{
+    width: 300px;
+}
+</style>
+
+<body>
+
+
+    <nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src= "images/gramothan.jpeg">
+			</div>
+			
+			<li><a href="home.html">Home</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			
+		</ul>
+
+		<div class="rightNav">
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+		</div>
+	</nav>
+
+
+
+
+  <section class="about-us">
+    <div class="about">
+      <img src="images/gramothan.jpeg">
+      <div class="text">
+        <h2>About Us</h2>
+        
+          <p>The objective of the Gramothan project is to transform the lives of rural artisans by providing them with the necessary education, resources, and empowerment to bootstrap their work. The project aims to create a sustainable ecosystem for these artisans by helping them with proper documentation and establishing them as Self Help Groups (SHGs). By doing so, the project not only uplifts the artisans but also their communities, contributing to their overall economic growth.
+            Furthermore, the project seeks to connect artisans with wholesale buyers and retailers, creating a new market for their products and allowing them to reach a wider audience. This will enable the artisans to realize greater profits, which will further empower them to achieve self-sufficiency.
+            In addition, the project aims to include job alerts from the government in the future, enabling users to choose the type of job that best fits their skills and aspirations. With Gramothan, rural artisans finally have a fighting chance to break out of the regular everyday cycle, find meaningful work, and contribute to the growth and development of their communities.
+            
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

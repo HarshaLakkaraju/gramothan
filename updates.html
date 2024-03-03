@@ -1,0 +1,490 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Updates</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.navbar {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: sticky;
+			top: 0;
+			cursor: pointer;
+		}
+
+		.background {
+			background: black;
+			background-blend-mode: darken;
+			background-size: cover;
+		}
+
+		.nav-list {
+			width: 70%;
+			display: flex;
+			align-items: center;
+		}
+
+		.logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.logo img {
+			width: 180px;
+			border-radius: 50px;
+		}
+
+		.nav-list li {
+			list-style: none;
+			padding: 26px 30px;
+		}
+
+		.nav-list li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		.nav-list li a:hover {
+			color: grey;
+		}
+
+		.rightnav {
+			width: 30%;
+			text-align: right;
+		}
+
+		#search {
+			padding: 5px;
+			font-size: 17px;
+			border: 2px solid grey;
+			border-radius: 9px;
+		}
+
+		.firstsection {
+			background-color: green;
+			height: 400px;
+			background-image: url('images/background-8.jpg');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+			
+		}
+
+		.secondsection {
+			background-color: yellowgreen;
+			height: 400px;
+			background-image: url('images/background-7.jpg');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+		}
+
+		.thirdsection{
+			background-color: blue;
+			height: 400px;
+			background-image: url('images/background-6.jpg');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+
+
+            }
+
+		.box-main {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: black;
+			max-width: 80%;
+			margin: auto;
+			height: 80%;
+		}
+
+		.firsthalf {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.secondhalf {
+			width: 30%;
+
+		}
+
+
+		.secondhalf img {
+			width: 70%;
+			border: 4px solid white;
+			border-radius: 150px;
+			display: block;
+			margin: auto;
+        }
+
+		.text-big {
+			font-family: 'Piazzolla', serif;
+			font-weight: bold;
+			font-size: 35px;
+		}
+
+		.text-small {
+			font-size: 18px;
+			color: black
+		}
+
+		.btn {
+			padding: 8px 20px;
+			margin: 7px 0;
+			border: 2px solid white;
+			border-radius: 8px;
+			background: none;
+			color: white;
+			cursor: pointer;
+		}
+
+		.btn-sm {
+			padding: 6px 10px;
+			vertical-align: middle;
+		}
+
+		.section {
+			height: 400px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			max-width: 90%;
+			margin: auto;
+		}
+
+		.section-Left {
+			flex-direction: row-reverse;
+		}
+
+		.paras {
+			padding: 0px 65px;
+		}
+
+		.thumbnail img {
+			width: 150px;
+			border: 2px solid black;
+			border-radius: 26px;
+			margin-top: 19px;
+			opacity: 0.85;
+			
+		}
+
+        .ngo{
+            width: 50px;
+			border: 2px solid black;
+			border-radius: 26px;
+			margin-top: 19px;
+        }
+
+		.center {
+			text-align: center;
+		}
+
+		.text-footer {
+			text-align: center;
+			padding: 30px 0;
+			font-family: 'Ubuntu', sans-serif;
+			display: flex;
+			justify-content: center;
+			color: white;
+		}
+
+		.img{
+			float: left;
+			width: 1000px;
+		}
+
+		.up{
+			float: right;
+		}
+
+		
+
+
+	</style>
+</head>
+
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src= "images/gramothan.jpeg">
+			</div>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+
+		<div class="rightNav">
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+		</div>
+	</nav>
+
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="web"><a href="exam.html">Exams</a></h1>
+				<p class="text-small">
+					<b>Get latest updates about govt exams</b> 
+				</p>
+				
+                </div>
+				<div class="thumbnail">
+					<img src= "images/exam.jpeg" alt="laptop image">
+				</div>
+		</div>
+	</section>
+
+	<section class="secondsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="program"><a href="jobs.html"> Jobs</a>
+					</h1>
+				<p class="text-small">
+					<b>Get all latest updates about govt jobs and explore your oppurtunities</b>
+				</p>
+				<div class="up">
+                  
+				</div>
+
+
+			</div>
+			<div class="thumbnail">
+				<img src= "images/job.jpeg" alt="laptop image">
+			</div>
+		</div>
+       
+	</section>
+     
+	<section class="thirdsection">
+		<div class="box-main">
+			<div class="firstHalf">
+			<h1 class="text-big"><a href="https://www.rajras.in/rajasthan/adm/schemes/">Schemes</a></h1>
+
+			<p class="text-small">
+				<b>Get information about govt schemes</b>
+			</p>
+
+
+		</div>
+
+		<div class="thumbnail">
+			<img src= "images/schemes.jpeg" alt="laptop image">
+		</div>
+	</section>
+
+	<footer class="background">
+		<p class="text-footer">
+			Copyright ©-All rights are reserved
+		</p>
+
+
+	</footer>
+</body>
+
+</html>
+
+
+
+
+
+<!--
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Updates </title>
+
+	<style>
+		* {
+			margin: 4px;
+			padding: 4px;
+		}
+
+		.navbar {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: sticky;
+			top: 0;
+			cursor: pointer;
+            margin-left: 0px;
+		}
+
+		.background {
+			background: black;
+			background-blend-mode: darken;
+			background-size: cover;
+		}
+
+		.nav-list {
+			width: 70%;
+			display: flex;
+			align-items: center;
+		}
+
+		.logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.logo img {
+			width: 120px;
+			border-radius: 320px;
+		}
+
+		.nav-list li {
+			list-style: none;
+			padding: 26px 30px;
+		}
+
+		.nav-list li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		.nav-list li a:hover {
+			color: grey;
+		}
+
+		.rightnav {
+			width: 30%;
+			text-align: right;
+		}
+
+		#search {
+			padding: 5px;
+			font-size: 17px;
+			border: 2px solid grey;
+			border-radius: 9px;
+		}
+
+        .box-main {
+            padding-left: 24px;
+			display: flex;
+			
+			color: black;
+			max-width: 80%;
+			margin: auto;
+			height: 80%;
+            
+		}
+
+		.center {
+			text-align: center;
+		}
+
+		.text-footer {
+			text-align: center;
+			padding: 30px;
+			font-family: 'Ubuntu', sans-serif;
+			display: flex;
+			justify-content: center;
+			color: white;
+            display: table-row;
+            height: 0;
+
+		}
+
+        html, body {
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+		padding: 0px;
+        display: table;
+        background-image: url('images/background-1.jpeg');
+		background-size: 100%;
+		background-repeat: no-repeat;
+           
+        }
+
+        .text-header{
+           font-size: 2vw;
+           padding-left: 16px; 
+		   text-align: center; 
+            
+   }
+
+   .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 80px 200px;
+ 
+  gap: 10px;
+  background-color: black;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.grid-container > div {
+  background-color: #ffff00;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 30px;
+  font: bold;
+  width: 464px;
+  width: fixed;
+}
+        
+	</style>
+</head>
+
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src= "images/gramothan.jpeg">
+			</div>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+
+		<div class="rightNav">
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+		</div>
+	</nav>
+
+
+	<h1>Updates</h1>
+
+<div class="grid-container">
+  <div>Exams </div>
+  <div>Jobs</div>
+  <div>Schemes</div>  
+  <div>
+	<ul>
+		<li><a href="https://sarkaripariksha.com/rajasthan-exams/">Rajasthan Government upcoming exams</a></li>
+	<li><a href="https://www.studyfry.com/rajasthan-previous-years-solved-exam-paper"> Previous exam papers </a></li>
+</ul>
+</div>
+  <div><a href="https://rpsc.rajasthan.gov.in/">Rajasthan Government Jobs </a>
+	<a href="https://www.employment-news.net/2015/07/govt-jobs-in-rajasthan.html"> Rajasthan Government Jobs</a>
+</div>
+  <div>
+	<ul>
+		<li><a href="https://www.rajras.in/rajasthan/adm/schemes/">Rajasthan Government schemes for rural development</a></li>
+		<li><a href="https://rajpanchayat.rajasthan.gov.in/en-us/schemes/otherschemes.aspx">List of Government schemes</a></li>
+	</ul>
+</div>  
+</div>
+
+-->

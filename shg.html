@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHG</title>
+</head>
+
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: darkkhaki;
+        
+    }
+
+   
+
+    label {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+        margin-right: 10px;
+    }
+
+    input[type="text"] {
+        font-size: 16px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+        width: 480px;
+        margin-right: 10px;
+    }
+
+    button {
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0069d9;
+    }
+
+    .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.background {
+    background: black;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 180px;
+    border-radius: 50px;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: grey;
+}
+
+.rightnav {
+    width: 30%;
+    text-align: right;
+}
+.text{
+    text-align: center;
+    color: black;
+    
+}
+
+.text2{
+    font-size: 20px;
+}
+
+.search-box{
+    
+    display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 100%;
+        margin-top: 0px;
+        padding-top: 32px;
+        padding-bottom: 8px;
+        
+}
+
+.info-bar-container {
+      overflow: hidden;
+      width: 100%;
+      background-color: black;
+      padding: 10px;
+    }
+
+    .info-bar {
+      display: inline-block;
+      animation: marquee 10s linear infinite;
+      color: white;
+      font-size: 18px;
+      white-space: nowrap;
+      font-family: Arial, sans-serif;
+    }
+
+    @keyframes marquee {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+
+</style>
+
+<body>
+
+    <div class="info-bar-container">
+        <div class="info-bar">
+            <p>Bagru Handblock Print Fabric-<b>Rs.80/meter</b> || Wheat-<b>Rs.2200/quintal</b>|| 10g of gold-<b>Rs.62,235</b>|| Blue Pottery-<b>Rs.150/pc</b>|| Barley-<b>Rs.2800/quintal</b></p>
+        </div>
+      </div>
+
+    <nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src= "images/gramothan.jpeg">
+			</div>
+			
+			<li><a href="home.html">Home</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			
+		</ul>
+
+		<div class="rightNav">
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+		</div>
+	</nav>
+
+    <div class= "search-box">
+	<label>Enter SHG Code:</label>
+	<input type="text" id="searchInput">
+	<button onclick="search()">Search</button>
+</div>
+
+	<script>
+		function search() {
+			// Get the search input value
+			var searchValue = document.getElementById("searchInput").value;
+
+			// Redirect to the other page with the search value as a parameter
+			window.location.href = "search_shg.html?searchValue=" + searchValue;
+		}
+	</script>
+    <div class="container">
+
+
+    </div>
+
+    <div class="text">
+        <h1><u>How to Register for SHG</u></h1>
+         </div>
+         <p style="text-align: right;font-size: 20px;"><a href="hindi.html">हिंदी में देखें</a></p>
+         <div class="text2">
+         <p><b>Here are the steps involved in Registering your group as an SHG:</b></p>
+            <p>1.Select a business.</p>
+            <p>2.Add 10 – 20 marginal and people who are involved.</p>
+            <p>3.Collect necessary records of all members.</p>
+            <p>4.Go to village panchayat.</p>
+            <p>5.Ask for application form.</p>
+            <p>6.Fill the application form.</p>
+            <p>7.Attach all the records.</p>
+            <p>8.Get registration number.</p>
+    
+            <p><b>Let’s Understand the Process Registration of by the example of registering an Agribusiness SHG. </p></b>
+    
+            <p><b><u>1.Selecting a Business:</u></b></p>
+    <p>So, let’s select an Agribusiness from a variety of them!</p>
+    
+    <p>•Cultivation of paddy straw mushroom.</p>
+    <p>•Production of vermi-compost.</p>
+    <p>•Cultivation of oyster mushroom.</p>
+    <p>•Poultry farming.</p>
+    <p>•Dairy farming.</p>
+    <p>•Duck farming.</p>
+    <p>•Goat farming.</p>
+    <p>•Commercial flower production.</p>
+    <p>•Fodder production.</p>
+    <p>•Commercial vegetable production.</p>
+    <p>This involves identifying an agribusiness that aligns with your interests and has a proven track record of success. Consider factors such as the type of crops grown or the services provided by the agribusiness, as well as its location and market demand.</p>
+    
+    
+    <p><b><u>2.Add 10 – 20 marginal and people involved:</u></b></p> 
+    <p>Once  identified an agribusiness, the next step is to identify and recruit marginal and small farmers to join your group. These farmers should be able to benefit from the resources and support provided by the agribusiness, and their involvement should also benefit the agribusiness by increasing its reach and impact.</p>
+    <p>•Add at least 10 members.</p>
+    <p>•Always consider to add marginal farmers.</p>
+    <p>•Try to add small farmers.</p>
+    <p style="font-style: italic;"><b>What should be the selection criteria for the Farmer?</p></b>
+    <p>•Select active farmers: Farmers who</p>
+    <p>•Try to add educated farmers</p>
+    
+    
+    <p><b><u>3.Collect necessary records of all members</p></b></u>
+    <p>Collect necessary records of all members: To register your agribusiness and farmers with the village panchayat, you will need to collect and maintain detailed records of all members, including their personal information, landholding details, and any other relevant information.</p>
+    
+    <p>•Adhar card of all the members.</p>
+    <p>•Land records of all the members.</p>
+    <p>•Bank details of all the members.</p>
+    <p>•Passport size photos of all the members.</p>
+    <b>Important points:</b>
+    <br><b>Aadhar card:</b> Name and residence should be same.
+    <br><b>Land records:</b> It includes B1, Khasra, and land map. The land record should have the name of that particular farmer.
+    <br><b>Bank details:</b> The account should be active. Bank detail should have name of that particular farmer.
+    <br><b>Passport size photo:</b> PSP of all group members.
+    
+    
+    
+    <p><b><u>4. Go to village panchayat</p></b></u>
+    <p>Go to the village panchayat: The village panchayat is a local government body that oversees the administration of rural areas. You will need to visit the village panchayat to initiate the registration process and submit your application.</p>
+       <br>•Go to your village panchayat.
+    <br>•Contact of panchayat secretary.
+    <br>•You can also make a contact to panchayat chieftain.
+    <br>•Tell them about your group and project.
+    <br>•Verify the files.
+    <p>The primary place of registration is gram panchayat. You can also go to block or janpad panchayat for registration. You should have knowledge about your gram panchayat.</p>
+    
+    <p><b><u>5. Ask for application form</p></b></u>
+    <br>You can get an application form by contacting panchayat secretary.
+    <br>Once you've reached the village panchayat, you should request an application form for registering your agribusiness and farmers.
+    
+    <p><b><u> 6.Fill the application form</p></b></u>
+    <p>After obtaining the application form, you will need to fill it out with all the necessary details, including the name and contact information of your agribusiness and the personal and landholding details of all members.</p>
+    <br>•	Read the application carefully.
+    <br>•	Fill all the black fields
+    <br>•	Complete the signature process.
+    
+    
+    <p><b><u> 7.Attach all the records</b></u></p>
+    <br>Attach the files of all the members with that application form.
+    <br>Once you've completed the application form, you should attach all the necessary records and documentation, including your agribusiness registration certificate, the farmers' landholding documents, and any other relevant information.
+    
+    <p><b><u>8.Get registration number</p></b></u>
+    <p>After submitting your application and all the necessary documents, the village panchayat will review your application and issue a registration number if it is approved. This registration number is essential for formalizing your agribusiness and for accessing any government or private sector support and benefits.</p>
+    <br>•	It doesn’t take long.
+    <br>•	The SHG will get the registration number on the same working day.
+    
+    
+    <p><b><u>HOW WE WILL HELP IN THIS?</p></b></u>
+    <p>Gramothan plans to build community of regional volunteers and train them so that they can help their locals, build and establish SHG’s without the ever Needing to go into full details of this process works. </p>
+    
+    
+    <p>View in <a href="hindi.html">hindi</a></p>
+    
+     </div>
+    
+</body>
+
+</html>
+
+
+
+
+
