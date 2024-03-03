@@ -19,4 +19,4 @@ To get a local copy up and running follow.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your-username/gramothan.git
+   git clone https://github.com/HarshaLakkaraju/gramothan.git
